@@ -1,0 +1,68 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0277BD"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/notificacion_importante"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/logo" />
+    
+     <TextView
+        android:id="@+id/textView_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/Error"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+     
+     <TextView
+        android:id="@+id/textView_mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+         android:layout_marginBottom="3dp"
+        android:text="@string/Error"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+	
+    
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+         <Button
+             android:id="@+id/button_masinformacion"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:background="@drawable/bg_button"
+             android:text="@string/Mas_informacion"
+             android:textColor="#FFFFFF"
+             android:textColorHint="#FFFFFF" />
+
+    </RelativeLayout>
+   
+
+</LinearLayout>

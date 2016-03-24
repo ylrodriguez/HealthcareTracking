@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Yojhan/AndroidStudioProjects/HealthcareTracking/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black_overlay">#66000000</color>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="metaButtonBarStyle"/><attr format="reference" name="metaButtonBarButtonStyle"/></declare-styleable>
+    <!-- From: file:/C:/Users/Yojhan/AndroidStudioProjects/HealthcareTracking/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Yojhan/AndroidStudioProjects/HealthcareTracking/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Direccion">Dirección:</string>
+    <string name="Doctor">Nombre Doctor:</string>
+    <string name="Error">Error</string>
+    <string name="Fecha">Fecha y hora:</string>
+    <string name="Lugar">Lugar:</string>
+    <string name="Mas_informacion">Más información</string>
+    <string name="Sala">Sala:</string>
+    <string name="Telefono">Teléfono:</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="app_name">Healthcare Tracking</string>
+    <string name="b_aboutme">Mi información</string>
+    <string name="b_actividadfisica">Actividad Fisica</string>
+    <string name="b_calendario">Calendario</string>
+    <string name="b_citas">Citas programadas</string>
+    <string name="b_dieta">Dieta</string>
+    <string name="b_login">Iniciar sesión</string>
+    <string name="b_tratamiento">Medicamentos</string>
+    <string name="delete">Eliminar</string>
+    <string name="ed_password">Contraseña</string>
+    <string name="ed_user">Usuario</string>
+    <string name="edit">Editar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="notificacion_importante">¡Notificación importante!</string>
+    <string name="title_activity_aboutme">Mi información</string>
+    <string name="title_activity_actividadfisica">Actividad fisica</string>
+    <string name="title_activity_actividadseleccionada">Actividad</string>
+    <string name="title_activity_calendario">Calendario</string>
+    <string name="title_activity_cita_seleccionada">Cita_seleccionada</string>
+    <string name="title_activity_citas">Citas</string>
+    <string name="title_activity_dieta">Dieta</string>
+    <string name="title_activity_dieta_seleccionada">Dieta_seleccionada</string>
+    <string name="title_activity_home">Healthcare Tracking</string>
+    <string name="title_activity_medicamentoseleccionado">Medicamento</string>
+    <string name="title_activity_notificacion">Notificacion</string>
+    <string name="title_activity_tratamiento">Medicamentos</string>
+    <string name="tv_apellido">Apellidos:</string>
+    <string name="tv_cantidadxdiamed">Cantidad por dia</string>
+    <string name="tv_descripcion">Descripción</string>
+    <string name="tv_fecha_finalmed">Fecha final</string>
+    <string name="tv_fecha_iniciomed">Fecha de inicio</string>
+    <string name="tv_help">Para solicitar ayuda comuniquese con nosotros.</string>
+    <string name="tv_horainiciomed">Hora inicio</string>
+    <string name="tv_intervalohorasmed">Intervalo de horas</string>
+    <string name="tv_nombre">Nombres:</string>
+    <string name="tv_nombremed">Medicina</string>
+    <string name="tv_userfecha">Fecha de nacimiento</string>
+    <string name="tv_username">Nombre de usuario:</string>
+</resources>

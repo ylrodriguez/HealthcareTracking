@@ -1,0 +1,57 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="10dp"
+    >
+    
+    <TextView
+        android:id="@+id/tv_descractivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="@string/tv_descripcion"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/tv_descractivity_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:enabled="false"
+        android:hint="@string/Error"
+        android:text="@string/Error"
+        android:textColor="#212121"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/tv_fechafinalactivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="@string/tv_fecha_finalmed"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/tv_fechafinalactivity_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:enabled="false"
+        android:hint="@string/Error"
+        android:text="@string/Error"
+        android:textColor="#212121"
+        android:textSize="20sp" />
+    
+</LinearLayout>
+</ScrollView>

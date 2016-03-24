@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    
+ <item android:state_pressed="true" > <!-- PRESIONADO -->
+        <shape>
+            <solid 
+                android:color="#9E9E9E" />
+            <stroke
+                android:width="1dp"
+                android:color="#757575" />
+            <corners
+                android:radius="7dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid 
+                android:color="#BDBDBD" /> <!-- SIN PRESIONAR -->
+            <stroke
+                android:width="1dp"
+                android:color="#9E9E9E" />
+            <corners
+                android:radius="7dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>
